@@ -1,6 +1,6 @@
 # extensions page
 - [chrome](chrome://extensions/)
-- [chromium](chromium://extensions)
+- [`chromium`](chromium://extensions)
 - [edge](edge://extensions)
 - [brave](brave://extensions/)
 - [vivaldi](vivaldi://extensions)
