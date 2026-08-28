@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "mono everything",
+  "version": "0.1.0",
+  "description": "forces all fonts to monospace on every site",
+  "permissions": ["storage", "scripting", "activeTab", "tabs"],
+  "host_permissions": ["<all_urls>"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "mono everything",
+    "default_icon": {
+      "16": "icons/icons8-ttf-16.png",
+      "48": "icons/icons8-ttf-48.png",
+      "96": "icons/icons8-ttf-96.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icons8-ttf-16.png",
+    "48": "icons/icons8-ttf-48.png",
+    "96": "icons/icons8-ttf-96.png"
+  }
+}
