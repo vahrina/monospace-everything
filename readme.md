@@ -1,10 +1,13 @@
 # extensions page
-- chrome: `chrome://extensions`
-- chromium: `chromium://extensions`
-- edge: `edge://extensions`
-- brave: `brave://extensions/`
-- vivaldi: `vivaldi://extensions`
-- opera: `opera://extensions`
+
+| browser | url |
+|:--- |:--- |
+| chrome | `chrome://extensions` |
+| chromium | `chromium://extensions` |
+| edge | `edge://extensions` |
+| brave | `brave://extensions/`
+| vivaldi | `vivaldi://extensions` |
+| opera | `opera://extensions` |
 
 or if your browser isn't listed, simply go to `<browser>://extensions`
 
