@@ -1,8 +1,12 @@
 const STYLE_ID = "__monospace_everything_style__";
 
 const CSS = `
-  *:not(.material-icons):not([class*="icon"]):not([class*="fa-"]) {
-    font-family: monospace !important;
+  :root {
+    --mono: ui-monospace, monospace;
+  }
+
+  body, body * {
+    font-family: var(--mono);
   }
 `;
 
