@@ -5,7 +5,7 @@
 | chrome | `chrome://extensions` |
 | chromium | `chromium://extensions` |
 | edge | `edge://extensions` |
-| brave | `brave://extensions/`
+| brave | `brave://extensions/` |
 | vivaldi | `vivaldi://extensions` |
 | opera | `opera://extensions` |
 
