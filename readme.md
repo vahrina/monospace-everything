@@ -4,7 +4,13 @@ why? why not! the extension does exactly as described
 
 the extension is globally enabled, but saves per-site if you need it gone somewhere specifically
 
-# extensions page
+## installing
+
+1. check out the [latest release](https://github.com/vahrina/monospace-everything/releases/latest) & extract wherever you'd like it to reside in
+2. go to your browser's [extensions page](#extensions-page) & enable Developer Mode
+3. click "load unpacked" & select the extracted `dist` directory (where `manifest.json` lives)
+
+## extensions page
 
 | browser | url |
 |:--- |:--- |
