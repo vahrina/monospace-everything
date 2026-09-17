@@ -1,3 +1,9 @@
+# monospace everything in your browser
+
+why? why not! the extension does exactly as described
+
+the extension is globally enabled, but saves per-site if you need it gone somewhere specifically
+
 # extensions page
 
 | browser | url |
