@@ -11,4 +11,4 @@ jobs:
       - run: just zip
       - uses: softprops/action-gh-release@v3
         with:
-          fils: '*.zip'
+          files: '*.zip'
