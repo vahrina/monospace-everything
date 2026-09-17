@@ -28,12 +28,14 @@ function setState(enabled) {
   else removeStyle();
 }
 
-chrome.storage.local.get({ enabled: true }, (res) => {
-  setState(res.enabled);
+const origin = location.origin;
+
+chrome.storage.local.get({ disabledSites: [] }, (res) => {
+  setState(!res.disabledSites.includes(origin));
 });
 
 chrome.storage.onChanged.addListener((changes, area) => {
-  if (area === "local" && changes.enabled) {
-    setState(changes.enabled.newValue);
+  if (area === "local" && changes.disabledSites) {
+    setState(!changes.disabledSites.newValue.includes(origin));
   }
 });
