@@ -8,7 +8,7 @@ build flags=rsync_flags:
   mkdir -p dist
   rsync {{flags}} \
     --exclude='dist' --exclude='.git' --exclude='*.md' --exclude='justfile' \
-    . dist/
+    src/ dist/
 
 zip: build
   cd dist && zip -r ../monospace-everything-$(jq -r .version ./manifest.json).zip .
