@@ -10,11 +10,13 @@ the extension is globally enabled, but saves per-site if you need it gone somewh
 2. go to your browser's [extensions page](#extensions-page) & enable Developer Mode
 3. click "load unpacked" & select the extracted `dist` directory (where `manifest.json` lives)
 
+for firefox you may also visit [the extensions page](https://addons.mozilla.org/en-US/firefox/addon/mono-everything/) or [sign it yourself](https://support.mozilla.org/en-US/kb/add-on-signing-in-firefox)
+
 ## extensions page
 
 | browser | url |
 |:--- |:--- |
-| firefox | about:addons |
+| firefox | `about:addons` |
 | chrome | `chrome://extensions` |
 | chromium | `chromium://extensions` |
 | edge | `edge://extensions` |
@@ -25,4 +27,3 @@ the extension is globally enabled, but saves per-site if you need it gone somewh
 or if your browser isn't listed, simply go to `<browser>://extensions`
 
 > ~note that this does **not** support [firefox](https://www.firefox.com/en-US/) & only works on chrome/mv3 compatible browsers.~ if you're on linux: this extension shouldn't be needed at all, [`fc-cache`](https://linux.die.net/man/1/fc-cache) achieves the same result :)
-
