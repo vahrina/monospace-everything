@@ -14,6 +14,7 @@ the extension is globally enabled, but saves per-site if you need it gone somewh
 
 | browser | url |
 |:--- |:--- |
+| firefox | about:addons |
 | chrome | `chrome://extensions` |
 | chromium | `chromium://extensions` |
 | edge | `edge://extensions` |
@@ -23,5 +24,5 @@ the extension is globally enabled, but saves per-site if you need it gone somewh
 
 or if your browser isn't listed, simply go to `<browser>://extensions`
 
-> note that this does **not** support [firefox](https://www.firefox.com/en-US/) & only works on chrome/mv3 compatible browsers. if you're on linux: this extension shouldn't be needed at all, [`fc-cache`](https://linux.die.net/man/1/fc-cache) achieves the same result :)
+> ~note that this does **not** support [firefox](https://www.firefox.com/en-US/) & only works on chrome/mv3 compatible browsers.~ if you're on linux: this extension shouldn't be needed at all, [`fc-cache`](https://linux.die.net/man/1/fc-cache) achieves the same result :)
 

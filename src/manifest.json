@@ -1,7 +1,13 @@
 {
   "manifest_version": 3,
   "name": "mono everything",
-  "version": "0.1.0",
+  "version": "0.2.0",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "monospace@vahrina",
+      "strict_min_version": "109.0"
+    }
+  },
   "description": "forces all fonts to monospace on every site",
   "permissions": ["storage", "scripting", "activeTab", "tabs"],
   "host_permissions": ["<all_urls>"],

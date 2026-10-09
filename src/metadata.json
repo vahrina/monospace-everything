@@ -1,0 +1,14 @@
+{
+  "version": {
+    "license": "MIT"
+  },
+  "categories": {
+    "firefox": ["appearance"]
+  },
+  "summary": {
+    "en-US": "forces all fonts to monospace on every site"
+  },
+  "name": {
+    "en-US": "mono everything"
+  }
+}
